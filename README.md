@@ -1,41 +1,167 @@
 # Python_Modul_Week_1
 
-- Question 1: Write a Python code that prints numbers from 1 to 10 on the screen.
+# 📘 Beginner Python Projects
 
-- Question 2: Take a number input from the user and write a Python program that prints even numbers up to this number on the screen. Do this first with 'for' and then with 'while' loops.
+Welcome to **Beginner Python Projects** 🎉 This repository includes simple yet practical Python exercises to strengthen your skills in **lists, dictionaries, strings, loops, conditions, input, and type conversion**.
 
-- Question 3: Write a Python code that receives a start and end value from the user and prints all the numbers between these values ​​(including the end value) on the screen.
+---
 
-- Question 4: Get a number from the user and write a Python code that prints whether this number is odd or even.
+## 🚀 Projects Overview
 
-- Question 5: Write a Python program that takes a positive integer input from the user and calculates its factorial. Factorial is the product of all positive integers between a number itself and 1.
- For example: if the user entered 5, the program should give the following output:
- Enter a number from the user: 5
- Factorial: 120
+### ✅ Project 1: Favorite Movie List
 
-- Question 6: Write a Python code that receives a number from the user and checks whether this number is prime.
+Practice lists, input, and string basics.
 
-- Question 7: How to create a loop that calculates the Fibonacci sequence and returns the result as a list containing numbers up to a certain limit?
+* Ask the user for 3 favorite movies.
+* Save them in a list.
+* Print:
+
+  * Full list
+  * First movie
+  * Last movie
+  * Number of movies
+
+👉 **Hint:** Use `len()`, `list[index]`.
+
+---
+
+### ✅ Project 2: Age Check
+
+Practice input, type conversion, and conditions.
+
+* Ask the user for their age.
+* If under 18 → print *“You are not an adult”*.
+* Else → print *“You are an adult”*.
+* Ask for birth year and calculate age (use `2025`).
+
+---
+
+### ✅ Project 3: Word Analysis Tool
+
+Practice string methods, loops, conditions, lists, and sets.
+
+* Ask the user for a sentence.
+* Analyze:
+
+  * Character count (excluding spaces)
+  * Word count
+  * Unique words (`set`)
+  * Longest word
+
+👉 **Hint:** Use `split()`, `len()`, `set()`.
+
+---
+
+### ✅ Project 4: Mini Market Basket
+
+Practice dictionaries and loops.
+
+* Products and prices:
+
+  ```python
+  products = {"apple": 3, "banana": 5, "bread": 2, "milk": 4}
+  ```
+* Ask the user for 3 products.
+* Calculate total price.
+* Print:
+
+  ```
+  Your basket: apple, banana, milk
+  Total price: 12 TL
+  ```
+* If a product doesn’t exist → print warning.
+
+---
+
+### ✅ Project 5: Student Grading System
+
+Practice dictionaries, lists, loops, and averages.
+
+* Ask the user for **at least 3 students**.
+* Each student gets 3 grades.
+* Store in a dictionary:
+
+  ```python
+  students = {
+      "Ali": [80, 90, 70],
+      "Ayşe": [85, 75, 95],
+      "Mehmet": [60, 70, 65]
+  }
+  ```
+* Print each student’s average.
+* **Extra:** Show the student with the highest average.
+
+---
+
+### ✅ Project 6: Mini Library Management System
+
+Practice dictionaries, sets, loops, and string methods.
+
+* Library dictionary:
+
+  ```python
+  library = {
+      "Python101": "Available",
+      "DataScience": "Available",
+      "Algorithms": "Available"
+  }
+  ```
+* Menu options:
+
+  ```
+  1 - Add Book
+  2 - Borrow Book
+  3 - Return Book
+  4 - View All Books
+  5 - Exit
+  ```
+* Features:
+
+  * Add new book (`Available`)
+  * Borrow → `Borrowed`
+  * Return → `Available`
+  * Show all books + statistics
+  * Exit
+
+👉 **Extra:**
+
+* Make book names case-insensitive (`lower()`).
+* Track borrowed books in a `set`.
+* Prevent adding duplicate books.
+
+---
+
+## 📂 How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/beginner-python-projects.git
+   ```
+2. Open any project file in your Python IDE.
+3. Run with:
+
+   ```bash
+   python project_name.py
+   ```
+
+---
+
+## 🙌 Contribution
+
+Feel free to fork this repo, open issues, or submit pull requests with new beginner-friendly projects.
+
+---
+
+⭐ Don’t forget to give this repo a star if it helpe
 
 
-- Question 8: Write a Python code that takes a word from the user and prints the reverse of this word on the screen.
-
-- Question 9: How to create a combination of loop and conditional statement that takes a word input from the user and checks whether that word is a palindrome (the same when read backwards)?
-
-- Question 10: Write the code that calculates the person's weight index and returns the result as underweight, overweight or overweight according to the index value. (You can look on the internet for the weight index calculation)
-To do this, ask the user for their weight and height measurements. weight index
-If it is below 25, it is weak,
-Between 25-30 is normal,
-If you are over 30-40, you are overweight.
-If you are over 40, you are overweight.
-
-- Question 11: How to write a Python program that finds the largest of three numbers entered by a user?
-
-- Question 12: Get Midterm and Final grades from a student for any course. The sum of 40% of the midterm exam grade and 60% of the final grade will give the year-end average. If the average is below 50, "FAILED" will appear on the screen, and if it is 50 or above, "SUCCESSFUL" will be displayed on the screen. This printing process is 4 lessons. and the lessons will be written one after the other.
-
-## Hackerrank assignments
-1.  https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
-2.  https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
-3.  https://www.hackerrank.com/challenges/python-print/problem
-4.  https://www.hackerrank.com/challenges/finding-the-percentage/problem
+## Hackerrank assignments:
+### https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+### https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+### https://www.hackerrank.com/challenges/python-print/problem
+### https://www.hackerrank.com/challenges/finding-the-percentage/problem
+### https://www.hackerrank.com/challenges/array-left-rotation/problem
+### https://www.hackerrank.com/challenges/counter-game/problem
+### https://www.hackerrank.com/challenges/python-time-delta/problem
 
